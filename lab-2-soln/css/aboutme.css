@@ -29,6 +29,7 @@ h1{
     color: blue;
  
 }
+
 #number{
     list-style-type: decimal;
 }
@@ -41,3 +42,11 @@ h1{
     margin-right: 20px;
 
 }
+.links:hover{
+    color: crimson;
+    
+}
+.movie{
+    color: aqua;
+}
+
