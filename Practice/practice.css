@@ -1,0 +1,18 @@
+/* css*/
+
+ul>li{
+    color: yellow;
+    background-color: blue;
+}
+
+strong{
+    background-color: purple;
+}
+ 
+li strong{
+    color: red;
+    background-color: orange;
+}
+li> strong{
+    color: green;
+}

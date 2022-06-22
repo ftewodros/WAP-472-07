@@ -1,0 +1,28 @@
+/* css*/
+
+#feven{
+
+    justify-content: center;
+
+
+}
+.plist{
+    font-style: italic;
+    margin: 50px;
+    font-weight: normal;
+}
+.table1{
+    margin: 50px;
+    
+}
+.cart{
+    width: 30px;
+    height: 30px;
+}
+#btn{
+    margin: 30px 30px 30px ;
+}
+.validator{
+    width: 20px;
+    height: 20px;
+}
