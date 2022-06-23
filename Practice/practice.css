@@ -5,11 +5,11 @@ ul>li{
     background-color: blue;
 } 
 
-/* strong{
+strong{
     background-color: purple;
-} */
+}
  
-/* li strong{
+li strong{
     color: red;
     background-color: orange;
 }
@@ -19,4 +19,4 @@ ul>li{
 }
 em{
     color: pink;
-} */
+}
