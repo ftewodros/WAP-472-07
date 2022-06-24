@@ -1,0 +1,104 @@
+/*css*/
+
+.wrapper{
+  max-width: 1000px;
+  margin: 50px auto;
+
+}
+.layout{
+    border: 2px solid darkseagreen;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+}
+#workshop{
+    margin:10px 30px 10px 5px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 1000;
+    margin: 30px 20px 10px 20px;
+    
+   
+}
+#option{
+    background-color: darkseagreen;
+    color: black;
+    border: 0px solid gray;
+    height: 30px;
+    font-size: 15px;
+    margin: 10px;
+}
+.underline{
+    margin: 30px 30px 30px 100px;
+    border-bottom:1px solid black;
+    width: fit-content;
+}
+
+#navbarColor01{
+    background-color: darkseagreen;
+    padding-bottom: 20px;
+
+}
+form{
+    margin: 10px;
+
+}
+.labels{
+    margin: 10px;
+   
+}
+.inputs{
+    border: 1px solid gray;
+    height: 20px;
+    width: 25%;
+}
+.right{
+    margin: 30px;
+}
+#meals{
+    border: 1px solid gray;
+    height: 30px;
+    width: 25%;
+}
+#lunch{
+    margin: 30px;
+    border-bottom:1px solid black;
+    width: fit-content;
+}
+#Address{
+    height: 200px;
+    width: 30%;
+}
+#alig{
+    vertical-align: top;
+
+}
+#dd{
+    vertical-align: top;
+    margin: 30px 30px 30px 60px;
+}
+#state{
+    border: 1px solid gray;
+    height: 30px;
+    width: 25%;
+}
+#County{
+    border: 1px solid gray;
+    height: 30px;
+    width: 25%;
+}
+#bank{
+    vertical-align: top;
+    margin: 30px 30px 30px 60px;
+  
+}
+#btn{
+
+    background-color: lightgray;
+    
+
+}
+.button{
+    background-color: darkseagreen;
+
+}
