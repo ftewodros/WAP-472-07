@@ -1,0 +1,13 @@
+/*CSS*/
+
+body { 
+    background-color: yellow; 
+    color: magenta; 
+  } 
+  p { color: orange; } 
+  .central, .item { 
+    color: green;  
+  } 
+  #item { 
+    background-color: cyan; 
+  }
