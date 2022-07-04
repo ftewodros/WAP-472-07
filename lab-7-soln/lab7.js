@@ -42,4 +42,41 @@ function askPassword(ok, fail) {
       group.showList();    
 
 
+// 3
 
+let group1 = { 
+    title: "Our Group",
+    students: ["John", "Pete", "Alice"], 
+    showList: function() { 
+        this.students.forEach((stu)=>function(student) { 
+            console.log(this.title + ": " + student); 
+        }.call(this, stu)); 
+    }
+ };
+  group.showList();   
+ 
+  ////////////
+
+  let group2 = { 
+    title: "Our Group",
+    students: ["John", "Pete", "Alice"], 
+    showList: function() { 
+        this.students.forEach((student)=>function() { 
+            console.log(this.title + ": " + student); 
+        }.call(this)); 
+    }
+ };
+  group.showList();   
+
+  ///////////////  Apply
+
+  let group3 = { 
+    title: "Our Group",
+    students: ["John", "Pete", "Alice"], 
+    showList: function() { 
+        this.students.forEach((student)=>function() { 
+            console.log(this.title + ": " + student); 
+        }.apply(this)); 
+    }
+ };
+  group.showList();   

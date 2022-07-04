@@ -1,0 +1,30 @@
+/*css*/
+
+body{
+    background-color: yellow;
+}
+#first{
+    color: blue;
+}
+#such{
+    color: green;
+}
+#so, .that{
+    background-color: lightblue;
+
+}
+ul,.that{
+    background-color: white;
+}
+li.this.that{
+    color: red;
+}
+.that strong{
+    background-color: pink;
+}
+.such>em{
+    color: brown;
+}
+div{
+    color: orange;
+}

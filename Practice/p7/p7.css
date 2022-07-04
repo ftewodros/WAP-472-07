@@ -1,0 +1,7 @@
+/*css*/
+
+div { color: red; background-color: yellow; } 
+p { color: cyan; background-color: gray; } 
+span { color: green; background-color: blue; } 
+.b > p { color: purple; background-color: pink; }
+ div.b ul #item { color: AliceBlue; background-color: Beige; }

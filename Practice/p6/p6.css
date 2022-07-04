@@ -1,0 +1,31 @@
+/*css*/
+
+body{
+    background-color: green;
+    color: yellow;
+}
+.things, em{
+    color: red;
+}
+.some{
+    color: purple;
+    background-color: blue;
+}
+h1{
+    background-color: orange;
+
+}
+span, dl{
+    color: brown;
+}
+#there{
+   
+    background-color: white;
+}
+dt{
+    background-color: pink;
+}
+dl dd{
+    color: black
+    clear: right;
+}
