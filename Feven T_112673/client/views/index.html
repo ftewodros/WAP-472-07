@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="../../client/assets/img/favicone.jpeg" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.1.3/cerulean/bootstrap.min.css" integrity="sha512-CVn5BJ6vue0EG9CDO6yfg3hOvzQ43xEXOSUEkUtiV3pDy2S7O0saUZ0vbDkZYVX30NvqLLZo51JBzUyreGyqvg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../client/assets/css/products.css">
+
+     <!-- CSS -->
+    <!-- <link rel="stylesheet" href="./css/lab3.css"> -->
+    <link rel="stylesheet" href="../../client/assets/css/products.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="../assets/js/index.js"></script>
+</head>
+<body>
+    <div id="loginPage">
+        <nav  class="navbar navbar-expand-lg navbar-dark bg-danger">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="../../client/assets/img/Order-of-the-Queen-of-Sheba.jpeg" alt="img" height="50px" width="50px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              
+                 <li id="li">
+                    <div class="row">
+                      <div class="col-md-5 form-group">
+                        <input type="text" name="name" class="form-control" id="username" placeholder="User Name" required>
+                      </div>
+                      <div class="col-md-5 form-group mt-3 mt-md-0">
+                        <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+                        <label id="error-message" class="hide"></label>
+                      </div>
+                      <div class="col-md-2 form-group mt-3 mt-md-0">
+                       <button id="login" class="nav-link scrollto active">Login</button>
+                      </div>
+                    </div>
+                    
+                </li>     
+                
+                
+            </div>
+          </nav>
+        
+        
+        <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+            <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+        
+              <!-- Slide 1 -->
+              <div class="carousel-item active">
+                <div class="carousel-container">
+                  <h2 class="animate__animated animate__fadeInDown"><span>Welcome to my Store</span>
+                    </h2>        
+                  <p class="animate__animated animate__fadeInUp"><figcaption class="blockquote-footer">
+                    Enjoy <cite title="Source Title">Shopping !</cite>
+                  </figcaption></p>
+                </div>
+                
+              </div>
+        
+            </div>
+
+        </div>
+        
+  <!-- Slide 1 ////////////////////////////-->
+    <div id="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+            <div class="container-fluid">
+                <img src="../../client/assets/img/Order-of-the-Queen-of-Sheba.jpeg" alt="img" height="50px" width="50px">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                  
+                  </li>
+                  <li id="feven"  class="nav-item">
+                    <a class="nav-link active" href="./lab3.html"> <h2 id="name"></h2>
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                  </li>
+                  
+                  
+                </ul>
+                <form class="d-flex">
+                  
+                  <button id='logout' class="btn btn-secondary my-2 my-sm-0" type="submit">Log Out</button>
+                </form>
+    
+              </div>
+            </div>
+            
+          </nav> 
+          
+          <h2 class="plist">Product list</h2>
+          <div class="table1">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">price</th>
+                    <th scope="col">image</th>
+                    <th scope="col">Stock</th>
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+                <!-- display products -->
+                <tbody id="tbody"></tbody>
+
+              </table>
+             
+          </div>
+          <h2 class="plist">Your Shoping Cart</h2>
+          <h2 id="emptyMessage">
+            There is no item in your shopping cart</h2>
+          <div class="table1" id="cart">
+            <table class="table">
+                <thead >
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Quantitiy</th>
+                  </tr>
+                </thead>
+                <!-- display cart -->
+                <tbody id="tbody2"></tbody> 
+            <!-- total -->
+                <tbody id="tbody3"></tbody>
+              </table>
+              
+          </div>
+              <div id="btn" style="text-align: right;" class="col-md-12">
+                <button style="margin-left: 1em; padding: .5em 4em;" id="btnPlaceOrder"  class="btn btn-primary btn-inline">PLace Order</button>
+            </div>
+          </div>
+          
+    
+          
+    </div>
+    
+</body>
+</html>
+

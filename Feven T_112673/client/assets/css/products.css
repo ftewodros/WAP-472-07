@@ -1,0 +1,74 @@
+#feven{
+
+  
+    float: left;
+
+
+}
+.plist{
+    font-style: italic;
+    margin: 50px;
+    font-weight: normal;
+}
+.table1{
+    margin: 50px;
+    
+}
+.cart{
+    width: 30px;
+    height: 30px;
+}
+#btn{
+    margin: 30px 30px 30px ;
+}
+.validator{
+    width: 20px;
+    height: 20px;
+}
+#nasa{
+    width: 90px;
+    height: 60px;
+}
+
+#image{
+    width: 35px;
+    height:35px
+}
+#container {
+    font-family:'Times New Roman', Times, serif;
+}
+
+#loginPage{
+    font-family:'Times New Roman', Times, serif;
+}
+
+#name{
+    color: white;
+}
+
+
+#li {
+    list-style-type: none;
+  }
+
+  
+  #hero .carousel-container {
+
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 70vh;
+    padding-top: 60px;
+   
+  }
+  span{
+    color: crimson;
+    font-size: larger;
+    font-style: oblique
+   
+  }
+  

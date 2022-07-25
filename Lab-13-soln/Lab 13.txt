@@ -1,0 +1,7 @@
+Download the start-up project shoppingcart-server from class demo or you create everything from scrtach.
+Run "npm install" under shoppingcart-server to get express package installed.
+Implement the features below inside shoppingcart-server REST applicaiton
+CRUD(create, read, update, delete) books: make sure you use the proper URLs and HTTP Methods
+A book has properties: id, title, ISBN, publishedDate, author
+make proper changes in js files to implement the step 1 features
+Use Postman to test your REST APIs
